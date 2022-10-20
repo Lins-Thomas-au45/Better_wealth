@@ -1,0 +1,43 @@
+.row{
+    margin-left: 20px;
+    color: azure;
+    display: flex;
+    
+}
+.row__posters{
+  display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content:center;
+}
+.row_poster{
+    width: 60%;
+    
+    max-height: 500px;
+    
+    transition: transform 450ms;
+    margin-bottom: 100px;
+}
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+.row_poster:hover{
+    transform: scale(1.08);
+}
+h2{
+    margin-left: 0.5rem;
+    color: rgb(208, 68, 16);
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+a{
+    width: 80%;
+    max-height: 500px;
+    margin-left: 380px;
+    transition: transform 450ms;
+    margin-bottom: 100px;
+}
+
